@@ -1,8 +1,8 @@
 spec:
-  name: sample-html
+  name: youtubub
   static_sites:
   - environment_slug: html
     git:
-      branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-html.git
-    name: sample-html
+      branch: master
+      repo_clone_url: https://github.com/kiennd-iflatx/youtubub-do
+    name: youtubub
