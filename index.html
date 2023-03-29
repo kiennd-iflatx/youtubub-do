@@ -2,7 +2,57 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-GL3PM86PVB');</script><script defer="defer" src="web.js"></script><link href="web.a7b330e60e2f07637c30.css" rel="stylesheet"></head><body><div id="app"></div><script>// This is the service worker with the Advanced caching
+      gtag('config', 'G-GL3PM86PVB');</script><script defer="defer" src="web.js"></script><link href="web.e637f89ee2c70bd46efc.css" rel="stylesheet"></head><body><div id="app"><style>.spinner {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            margin: auto;
+        }
+  
+        .double-bounce1,
+        .double-bounce2 {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            opacity: 0.6;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #f44336;
+  
+            -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+            animation: sk-bounce 2.0s infinite ease-in-out;
+        }
+  
+        .double-bounce2 {
+            -webkit-animation-delay: -1.0s;
+            animation-delay: -1.0s;
+        }
+  
+        @-webkit-keyframes sk-bounce {
+            0%,
+            100% {
+                -webkit-transform: scale(0.0)
+            }
+            50% {
+                -webkit-transform: scale(1.0)
+            }
+        }
+  
+        @keyframes sk-bounce {
+            0%,
+            100% {
+                transform: scale(0.0);
+                -webkit-transform: scale(0.0);
+            }
+            50% {
+                transform: scale(1.0);
+                -webkit-transform: scale(1.0);
+            }
+        }</style><div class="spinner"><div class="double-bounce1"/><div class="double-bounce2"/></div></div><script>// This is the service worker with the Advanced caching
 
     // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
 
